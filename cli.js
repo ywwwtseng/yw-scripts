@@ -2,6 +2,7 @@
 
 const program = require('commander');
 const pkg = require('./package.json');
+const lib = require('.');
 
 let scriptName;
 
@@ -12,4 +13,4 @@ program
 
 program.parse(process.argv);
 
-console.log(scriptName);
+lib.run(scriptName);

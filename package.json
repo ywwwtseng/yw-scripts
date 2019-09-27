@@ -9,6 +9,7 @@
   "author": "ywwwtseng <ywwwtseng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^3.0.2"
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0"
   }
 }
