@@ -9,7 +9,11 @@
   "author": "ywwwtseng <ywwwtseng@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ansi-escapes": "^4.2.1",
+    "chalk": "^2.4.2",
     "commander": "^3.0.2",
-    "fs-extra": "^8.1.0"
+    "execa": "^2.0.4",
+    "fs-extra": "^8.1.0",
+    "ora": "^4.0.1"
   }
 }
