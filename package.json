@@ -1,0 +1,14 @@
+{
+  "name": "yw-scripts",
+  "version": "0.0.1",
+  "description": "yw's scripts",
+  "main": "index.js",
+  "bin": {
+    "yw-scripts": "./cli.js"
+  },
+  "author": "ywwwtseng <ywwwtseng@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
