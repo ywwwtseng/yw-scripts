@@ -10,6 +10,7 @@ function run(scriptName) {
   if (scriptName === 'cri') { options.scriptName = 'cra-request-init'; }
   if (scriptName === 'crsi') { options.scriptName = 'cra-redux-saga-init'; }
   if (scriptName === 'crrdi') { options.scriptName = 'cra-react-router-dom-init'; }
+  if (scriptName === 'csci') { options.scriptName = 'cra-styled-components-init'; }
 
   require(`./lib/scripts/${options.scriptName}`)(options);
 }
