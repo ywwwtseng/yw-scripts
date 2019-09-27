@@ -4,7 +4,11 @@ function run(scriptName) {
     currentPath: process.cwd()
   };
 
-  require(`./lib/scripts/${scriptName}`)(options);
+  if (scriptName === 'cei') { options.scriptName = 'cra-env-init'; }
+  if (scriptName === 'cri') { options.scriptName = 'cra-request-init'; }
+  if (scriptName === 'crsi') { options.scriptName = 'cra-redux-saga-init'; }
+
+  require(`./lib/scripts/${options.scriptName}`)(options);
 }
 
 module.exports = {
