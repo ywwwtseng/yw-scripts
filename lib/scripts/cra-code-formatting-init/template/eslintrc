@@ -8,12 +8,8 @@
     "jest": true
   },
   "plugins": ["prettier"],
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": ["react-app"],
   "rules": {
-    "prettier/prettier": "error",
-    "react/prop-types": "off"
+    "prettier/prettier": "error"
   }
 }
