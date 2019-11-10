@@ -6,11 +6,7 @@ function run(scriptName) {
     currentPath: process.cwd()
   };
 
-  if (scriptName === 'cei') { options.scriptName = 'cra-env-init'; }
-  if (scriptName === 'cri') { options.scriptName = 'cra-request-init'; }
-  if (scriptName === 'crsi') { options.scriptName = 'cra-redux-saga-init'; }
-  if (scriptName === 'crrdi') { options.scriptName = 'cra-react-router-dom-init'; }
-  if (scriptName === 'csci') { options.scriptName = 'cra-styled-components-init'; }
+  if (scriptName === 'cra-init') { options.scriptName = 'create-react-app-init'; }
 
   require(`./lib/scripts/${options.scriptName}`)(options);
 }
